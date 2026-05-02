@@ -115,7 +115,7 @@ employee-attrition-prediction-data-mining/
 ├── .gitignore
 │
 ├── src/
-│   └── Pre.py
+│   └── attrition_data_preparation.py
 │
 ├── outputs/
 │   ├── scaled_resampled.csv
