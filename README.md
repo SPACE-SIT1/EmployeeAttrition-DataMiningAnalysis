@@ -108,7 +108,7 @@ The full project report is available in the `report/` folder.
 ## Project Structure
 
 ```text
-employee-attrition-prediction-data-mining/
+EmployeeAttrition-DataMiningAnalysis/
 │
 ├── README.md
 ├── requirements.txt
@@ -130,3 +130,22 @@ employee-attrition-prediction-data-mining/
     ├── feature_importance.png
     ├── model_performance.png
     └── association_rules.png
+```
+
+## How to Run
+
+This repository contains the Python workflow used for data preparation, feature selection, SMOTE oversampling, standardization, CSV export, and Association Rule Mining.
+
+The classification and clustering analysis were conducted in RapidMiner using the processed CSV files exported from Python.
+
+To run the Python workflow locally, place the dataset in the `data/` folder and update the dataset path in `src/attrition_data_preparation.py` if needed.
+
+```bash
+pip install -r requirements.txt
+python src/attrition_data_preparation.py
+```
+
+## Note
+The original dataset is not included in this repository due to source and file management considerations.
+
+This repository is provided for portfolio demonstration and includes the analysis workflow, key outputs, report, and visual summaries.
